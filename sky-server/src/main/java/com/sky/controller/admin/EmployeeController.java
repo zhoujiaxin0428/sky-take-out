@@ -21,7 +21,7 @@ import java.util.Map;
 /**
  * 员工管理
  */
-@RestController
+@RestController// ① 返回对象自动转 JSON（= @Controller + @ResponseBody）
 @RequestMapping("/admin/employee")
 @Slf4j
 public class EmployeeController {

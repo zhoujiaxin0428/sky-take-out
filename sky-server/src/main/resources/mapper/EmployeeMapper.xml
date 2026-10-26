@@ -31,12 +31,12 @@
                 sex=#{sex},
             </if>
             <if test="idNumber!=null">
-                name=#{idNumber},
-            </if> <if test="idNumber!=null">
                 id_Number=#{idNumber},
-            </if> <if test="updateTime!=null">
+            </if>
+            <if test="updateTime!=null">
             update_Time=#{updateTime},
-            </if> <if test="updateUser!=null">
+            </if>
+            <if test="updateUser!=null">
             update_User=#{updateUser},
             </if>
             <if test="status!=null">
